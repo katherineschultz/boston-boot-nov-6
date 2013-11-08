@@ -11,9 +11,12 @@
 </head>
 <body>
 
+<!-- NAVBAR -->
+
 <nav class="navbar navbar-inverse" role="navigation">
 <div class="navbar-header">
     <ul class="nav navbar-nav">
+        <img class="logocropped" src="img/logo_cropped.png" alt="">
         <li><a href="#hero">Home</a></li>
         <li><a href="#story">Our Story</a></li>
         <li><a href="#products">Products</a></li>
@@ -23,58 +26,77 @@
 </div>
 </nav>
 
+<!-- JUMBOTRON -->
+
 <div class="jumbotron masthead" id="hero">
-    <div class="container">
+    <div class="jumbocontainer">
         <div class="caption">
-            <p class="jumbohead">Boston Boot Co.<p>
-            <p>A craft approach to Men's Boots.</p>
-            <p>We want to do for boots what microbreweries did for beer.  Bring back quality, character, and integrity to the products we use everyday.  And we are doing it the same way too, by making our boots in small runs, dedicating time to all the details and engaging in a zealous pursuit to find the best methods, materials, and technologies for our boots.</p>
+            <img class="logo" src="img/logo.png" alt="">
+            <p class="jumbosub">A craft approach to Men's Boots.</p>
+            <p class="jumbobody">We want to do for boots what microbreweries did for beer.  Bring back quality, character, and integrity to the products we use everyday.  And we are doing it the same way too, by making our boots in small runs, dedicating time to all the details and engaging in a zealous pursuit to find the best methods, materials, and technologies for our boots.</p><br>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </div>
+
+    </div>
+</div>
+
+<!-- OUR STORY -->
+
+<div class="container story" id="story">
+    <div class="row">
+        <div class="ourstory">
+            <p class="storyhead">OUR STORY</p>
+            <div class="storycopycontainer">
+                <p class="storycopy">Two guys, one with decades of industry knowledge and a desire to turn the category upside-down teamed up with a buddy with the connections to make it all happen. We added a 3rd, a talented-as-hell shoe designer with a cutting-edge sense of style. Our shared vision: to bring style, durability and comfort together in a pair of boots as resourceful as we are. In short, we wanted to make boots the right way. So we are setting out to build a better boot, and we started by looking out our window for inspiration. Our hometown of Boston is smart, rugged, classic in its style and bold in its innovation. We designed our boots that way. And of course, Boston is known for its crappy weather, so Boston Boots are weather-proof and built to handle whatever is thrown their way.</p>
+                <ul>
+                    <li>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <p class="storyhead2">WE USE THE BEST LEATHER KNOWN TO MAN</p>
+            <img class="leatherlogo" src="img/our story/leatherlogo.jpg" alt="">
+            <p class="leathercopy">Horween Leather Co. in Chicago is our exclusive supplier of the best leathers on the earth.  All of the leathers are waterproof, making our boots water resistant and durable in every weather condition.</p>
+        </div>
+        <div class="col-md-6">
+            <img class="leatherhero" src="img/our story/leatherhero.jpg" alt="">
         </div>
     </div>
 </div>
 
-<div class="container story" id="story">
-    <div class="row">
-        <div class="col-md-6">
-            <p class="storyhead">OUR STORY</p>
-            <p>Two guys, one with decades of industry knowledge and a desire to turn the category upside-down teamed up with a buddy with the connections to make it all happen. We added a 3rd, a talented-as-hell shoe designer with a cutting-edge sense of style. Our shared vision: to bring style, durability and comfort together in a pair of boots as resourceful as we are. In short, we wanted to make boots the right way. So we are setting out to build a better boot, and we started by looking out our window for inspiration. Our hometown of Boston is smart, rugged, classic in its style and bold in its innovation. We designed our boots that way. And of course, Boston is known for its crappy weather, so Boston Boots are weather-proof and built to handle whatever is thrown their way.</p>
-            <p class="storyhead">WE USE THE BEST LEATHER KNOWN TO MAN</p>
-            <p>Horween Leather Co. in Chicago is our exclusive supplier of the best leathers on the earth.  All of the leathers are waterproof, making our boots water resistant and durable in every weather condition.</p>
-        </div>
-        <div class="col-md-6">
-            <img class="storyimg" src="img/our story/ourstory.jpg" alt="">
-        </div>
-    </div>
-</div>
+<!-- RED DOT -->
 
 <!-- <div class="reddot">
     Red Dot
     We’re building Boston Boot Co for everyone that might have a little Boston in their soul.  No detail is minor.  Even a little eyelet is a big deal to us.  With a subtle nod to our hometown, this sophisticated detail will be only seen by the men who wear them.
 </div> -->
 
+<!-- PRODUCTS -->
+
 <div class="container products" id="products">
-    <p class="headline">PRODUCTS</p>
+    <p class="productheadline">PRODUCTS</p>
     <div class="row">
         <div class="commonwealth col-md-4">
-            <img class="productimg" src="img/products/commonwealth.jpg" alt="">
+            <img class="productimg img-responsive" src="img/products/commonwealth.jpg" alt="Responsive image">
             <br>
-            <h4>The Commonwealth</h4>
-            <p>A classic chukka boot with all the earmarks of quality and durability. Made with Horween Chromexcel leather and full calf leather lining.</p>
+            <h4 class="producttitle">The Commonwealth</h4>
+            <p class="productcopy">A classic chukka boot with all the earmarks of quality and durability. Made with Horween Chromexcel leather and full calf leather lining.</p>
         </div>
         <div class="newbury col-md-4">
-            <img class="productimg" src="img/products/newbury.jpg" alt="">
+            <img class="productimg img-responsive" src="img/products/newbury.jpg" alt="Responsive image">
             <br>
-            <h4>The Newbury</h4>
-            <p>Our take on the classic wing tip boot. Conservatively designed and made with Horween leather and waxed canvas uppers.</p>
+            <h4 class="producttitle">The Newbury</h4>
+            <p class="productcopy">Our take on the classic wing tip boot. Conservatively designed and made with Horween leather and waxed canvas uppers.</p>
         </div>
         <div class="cambridge col-md-4">
-            <img class="productimg" src="img/products/cambridge.jpg" alt="">
+            <img class="productimg img-responsive" src="img/products/cambridge.jpg" alt="Responsive image">
             <br>
-            <h4>The Cambridge</h4>
-            <p>A rugged moc toe that will endure for seasons. Combinations of Horween Chromexcel leathers and waxed canvas give life to this field boot inspired style.</p>
+            <h4 class="producttitle">The Cambridge</h4>
+            <p class="productcopycam">A rugged moc toe that will endure for seasons. Combinations of Horween Chromexcel leathers and waxed canvas give life to this field boot inspired style.</p>
         </div>
     </div>
 </div>
+
+<!-- TECH -->
 
 <!-- <div class="tech">
     COMFORT TECHNOLOGY FOR TODAY
@@ -86,17 +108,21 @@
     In order to make a great boot, you must start with a great last. We did just that. Through years of knowledge and experience we crafted this last with the perfect fit in mind including a roomy toe box, contoured instep, and a heel that will not slip.
 </div> -->
 
+<!-- ABOUT US -->
+
 <div class="container about" id="about">
-    <p class="headline">ABOUT US</p>
+    <p class="aboutheadline">ABOUT US</p>
     <div class="row">
-        <div class="cambridge col-md-4">
-            <img src="img/dudes.jpg" alt="">
+        <div class="aboutimg col-md-6">
+            <img class="abouthero img-responsive" src="img/dudes.jpg" alt="Responsive image">
         </div>
-        <div class="cambridge col-md-8">
+        <div class="aboutcopy col-md-6">
             <p>Our team includes guys with years of design, development and production experience with major global footwear companies. We learned a lot working for the big players in the industry but we think there's a better way.We believe our smaller, bootstrapped approach makes us more focused, nimble, and dedicated to our one simple objective: Find the best materials, and utilize the latest manufacturing technologies in performance comfort to make classic, but fresh styled shoes that guys want.</p>
         </div>
     </div>
 </div>
+
+<!-- CONTACT -->
 
 <div class="container email">
 <p class="headline">SUBSCRIBE</p>
@@ -122,6 +148,8 @@
         <div class="col-md-4"></div>
     </div>
 </div>
+
+<!-- FOOTER -->
 
 <div="footer">
     <a href="http://www.kickstarter.com/projects/bostonbootco/boston-boot-co-a-craft-approach-to-mens-boots">Kickstarter</a>
