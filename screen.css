@@ -16,6 +16,13 @@ body {
     height: 100%;
 }
 
+.headline {
+    font-size: 75px;
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
 /*NAVBAR*/
 
 .logocropped {
@@ -25,8 +32,13 @@ body {
     float: left;
 }
 
-.li {
-    float:right;
+a {
+    color: white !important;
+    font-size: 15px;
+}
+
+.navbar {
+    background-color: black;
 }
 
 /*JUMBOTRON*/
@@ -69,14 +81,14 @@ body {
 }
 
 .glyphicon-chevron-down {
-    padding-top: 150px;
+    margin-top: 150px;
     font-size: 50px;
 }
 
 /*OUR STORY*/
 
 #story {
-    padding-top: 200px;
+    margin-top: 200px;
 }
 
 /*OUR STORY DESCRIPTION*/
@@ -84,19 +96,6 @@ body {
 .ourstory {
     padding-bottom: 200px;
 }
-
-.storyhead {
-    font-size: 75px;
-    text-align: center;
-    font-weight: 800;
-    padding-bottom: 5px;
-}
-
-/*.storycopycontainer {
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-}*/
 
 .storycopy {
     font-size: 15px;
@@ -136,23 +135,18 @@ body {
     font-size: 15px;
 }
 
-
+.leathershop {
+    text-align: center;
+}
 
 /*PRODUCTS*/
 
 #products {
-    padding-top: 200px;
+    margin-top: 200px;
 }
 
 .products {
-       margin-bottom: 30px;
-}
-
-.productheadline {
-    font-size: 75px;
-    text-align: center;
-    font-weight: 800;
-    padding-bottom: 5px;
+    margin-bottom: 30px;
 }
 
 .producttitle {
@@ -174,17 +168,14 @@ body {
     letter-spacing: -0.5px;
 }
 
+/*TECH*/
+
+
+
 /*ABOUT US*/
 
 #about {
-    padding-top: 200px;
-}
-
-.aboutheadline {
-    font-size: 75px;
-    text-align: center;
-    font-weight: 800;
-    padding-bottom: 5px;
+    margin-top: 200px;
 }
 
 .abouthero {
@@ -198,9 +189,40 @@ body {
 
 /*CONTACT*/
 
-.email {
-    margin: 50px auto;
+#contact {
+    margin-top: 100px;
 }
+
+/*FOOTER*/
+
+.footer {
+    margin-top: 90px;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+.kickstarter {
+    text-align: center;
+}
+
+.kickimg {
+    width: 250px;
+}
+
+.icons {
+    text-align: right;
+}
+
+i {
+    color: white !important;
+    font-size: 35px;
+    margin: 0px 5px;
+}
+
 
 
 @media screen and (min-width: 800px) {

@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="screen.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -34,30 +35,27 @@
             <img class="logo" src="img/logo.png" alt="">
             <p class="jumbosub">A craft approach to Men's Boots.</p>
             <p class="jumbobody">We want to do for boots what microbreweries did for beer.  Bring back quality, character, and integrity to the products we use everyday.  And we are doing it the same way too, by making our boots in small runs, dedicating time to all the details and engaging in a zealous pursuit to find the best methods, materials, and technologies for our boots.</p><br>
-            <span class="glyphicon glyphicon-chevron-down"></span>
+            <a href="#story"><span class="glyphicon glyphicon-chevron-down"></span></a>
         </div>
-
     </div>
 </div>
 
 <!-- OUR STORY -->
 
 <div class="container story" id="story">
+    <p class="headline">OUR STORY</p>
     <div class="row">
-        <div class="ourstory">
-            <p class="storyhead">OUR STORY</p>
-            <div class="storycopycontainer">
-                <p class="storycopy">Two guys, one with decades of industry knowledge and a desire to turn the category upside-down teamed up with a buddy with the connections to make it all happen. We added a 3rd, a talented-as-hell shoe designer with a cutting-edge sense of style. Our shared vision: to bring style, durability and comfort together in a pair of boots as resourceful as we are. In short, we wanted to make boots the right way. So we are setting out to build a better boot, and we started by looking out our window for inspiration. Our hometown of Boston is smart, rugged, classic in its style and bold in its innovation. We designed our boots that way. And of course, Boston is known for its crappy weather, so Boston Boots are weather-proof and built to handle whatever is thrown their way.</p>
-                <ul>
-                    <li>
-            </div>
+        <div class="ourstory col-md-12">
+            <p class="storycopy">Two guys, one with decades of industry knowledge and a desire to turn the category upside-down teamed up with a buddy with the connections to make it all happen. We added a 3rd, a talented-as-hell shoe designer with a cutting-edge sense of style. Our shared vision: to bring style, durability and comfort together in a pair of boots as resourceful as we are. In short, we wanted to make boots the right way. So we are setting out to build a better boot, and we started by looking out our window for inspiration. Our hometown of Boston is smart, rugged, classic in its style and bold in its innovation. We designed our boots that way. And of course, Boston is known for its crappy weather, so Boston Boots are weather-proof and built to handle whatever is thrown their way.</p>
         </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <p class="storyhead2">WE USE THE BEST LEATHER KNOWN TO MAN</p>
             <img class="leatherlogo" src="img/our story/leatherlogo.jpg" alt="">
             <p class="leathercopy">Horween Leather Co. in Chicago is our exclusive supplier of the best leathers on the earth.  All of the leathers are waterproof, making our boots water resistant and durable in every weather condition.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 leathershop">
             <img class="leatherhero" src="img/our story/leatherhero.jpg" alt="">
         </div>
     </div>
@@ -73,7 +71,7 @@
 <!-- PRODUCTS -->
 
 <div class="container products" id="products">
-    <p class="productheadline">PRODUCTS</p>
+    <p class="headline">PRODUCTS</p>
     <div class="row">
         <div class="commonwealth col-md-4">
             <img class="productimg img-responsive" src="img/products/commonwealth.jpg" alt="Responsive image">
@@ -98,20 +96,25 @@
 
 <!-- TECH -->
 
-<!-- <div class="tech">
-    COMFORT TECHNOLOGY FOR TODAY
+<!-- <div class="container tech">
+    <p class="headline">TECHNOLOGY</p>
+    <div class="row">
+        <div class="techcopy col-md-6">
+            <h4>Comfort Technology for Today</h4>
+            <p>We don’t believe in sacrificing style for comfort.  Our team utilized their experience working for globally recognized athletic footwear companies to ensure that our boots have the latest and best features for a comfortable boot.  That includes, our custom engineered footbed!</p>
+            <h4>The Core of Every Great Boot Starts Here</h4>
+            <p>In order to make a great boot, you must start with a great last. We did just that. Through years of knowledge and experience we crafted this last with the perfect fit in mind including a roomy toe box, contoured instep, and a heel that will not slip.</p>
+        </div>
+        <div class="col-md-6">
 
-    We don’t believe in sacrificing style for comfort.  Our team utilized their experience working for globally recognized athletic footwear companies to ensure that our boots have the latest and best features for a comfortable boot.  That includes, our custom engineered footbed!
-
-    THE CORE OF EVERY GREAT BOOT STARTS HERE
-
-    In order to make a great boot, you must start with a great last. We did just that. Through years of knowledge and experience we crafted this last with the perfect fit in mind including a roomy toe box, contoured instep, and a heel that will not slip.
+        </div>
+    </div>
 </div> -->
 
 <!-- ABOUT US -->
 
 <div class="container about" id="about">
-    <p class="aboutheadline">ABOUT US</p>
+    <p class="headline">ABOUT US</p>
     <div class="row">
         <div class="aboutimg col-md-6">
             <img class="abouthero img-responsive" src="img/dudes.jpg" alt="Responsive image">
@@ -124,25 +127,29 @@
 
 <!-- CONTACT -->
 
-<div class="container email">
-<p class="headline">SUBSCRIBE</p>
+<div class="container contact" id="contact">
+<p class="headline">CONTACT</p>
     <div class="row">
         <div class="col-md-4"></div>
-        <form class="col-md-4" action="#" id="contact">
+        <form class="col-md-4" action="#">
             <div class="input-group">
                 <label for="name">Name</label>
                 <input type="text" for="name" class="form-control">
             </div>
+            <br>
             <div class="input-group">
                 <label for="email">Email</label>
                 <input type="email" name="email" class="form-control">
             </div>
+            <br>
             <div class="input-group">
                 <input type="checkbox" name="updates"> Send me updates on Boston Boot Co.
             </div>
+            <br>
             <div class="input-group">
-                <input type="checkbox" name="newsletter"> Subscribe me to Boston Boot Co.'s email newsletter
+                <input type="checkbox" name="newsletter"> Subscribe me to Boston Boot Co.'s newsletter
             </div>
+            <br>
             <button type="button" class="btn btn-danger">Submit</button>
         </form>
         <div class="col-md-4"></div>
@@ -151,15 +158,23 @@
 
 <!-- FOOTER -->
 
-<div="footer">
-    <a href="http://www.kickstarter.com/projects/bostonbootco/boston-boot-co-a-craft-approach-to-mens-boots">Kickstarter</a>
+<div class="container footer">
+    <div class="row">
+        <div class="col-md-4">
+            <p class="copyright"><span class="glyphicon glyphicon-copyright-mark"></span> Boston Boot Co., 2013</p>
+        </div>
+        <div class="col-md-4 kickstarter">
+            <a href="http://www.kickstarter.com/projects/bostonbootco/boston-boot-co-a-craft-approach-to-mens-boots"><img class="kickimg" src="kickstarter-logo-dark.png"></a>
+        </div>
+        <div class="col-md-4 icons">
+            <a href="https://www.facebook.com/bostonbootco"><i class="fa fa-facebook-square"></i></a>
+            <a href="http://vimeo.com/78101920"><i class="fa fa-vimeo-square"></i></a>
+            <a href="http://instagram.com/bostonbootco"><i class="fa fa-instagram"></i></a>
+            <a href="mailto:info@bostonbootco.com"><i class="fa fa-envelope"></i></a>
+        </div>
+    </div>
 </div>
 
- <!--    <div id="footer">
-      <div class="container">
-        <p class="text-muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
-      </div>
-    </div> -->
 
 </body>
 </html>
