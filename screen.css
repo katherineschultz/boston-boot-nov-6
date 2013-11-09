@@ -23,6 +23,12 @@ body {
     padding-bottom: 5px;
 }
 
+.storyhead2 {
+    font-size: 54px;
+    line-height: 50px;
+    font-weight: 800;
+}
+
 /*NAVBAR*/
 
 .logocropped {
@@ -32,9 +38,9 @@ body {
     float: left;
 }
 
-a {
+.navig {
     color: white !important;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .navbar {
@@ -44,7 +50,7 @@ a {
 /*JUMBOTRON*/
 
 .jumbotron {
-    background-image: url("img/hero/hero.jpg");
+    background-image: url("img/red dot/reddot2.jpg");
     background-position: top center;
     background-size: cover;
     height: 100%;
@@ -83,7 +89,9 @@ a {
 .glyphicon-chevron-down {
     margin-top: 150px;
     font-size: 50px;
+    color: white;
 }
+
 
 /*OUR STORY*/
 
@@ -94,14 +102,13 @@ a {
 /*OUR STORY DESCRIPTION*/
 
 .ourstory {
-    padding-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .storycopy {
     font-size: 15px;
     text-align: center;
     font-weight: 400;
-    padding-bottom: 30px;
 }
 
 .storyimg {
@@ -116,10 +123,8 @@ a {
 
 /*LEATHER DESCRIPTION*/
 
-.storyhead2 {
-    font-size: 54px;
-    line-height: 50px;
-    font-weight: 800;
+.leather {
+    margin-bottom: 150px;
 }
 
 .leatherlogo {
@@ -139,14 +144,23 @@ a {
     text-align: center;
 }
 
+/*RED DOT*/
+
+.reddotimg {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 /*PRODUCTS*/
 
 #products {
     margin-top: 200px;
 }
 
-.products {
-    margin-bottom: 30px;
+.product {
+    margin-bottom: 150px;
 }
 
 .producttitle {
@@ -168,8 +182,17 @@ a {
     letter-spacing: -0.5px;
 }
 
-/*TECH*/
+/*PRODUCT TECH*/
 
+.techimg {
+    text-align: center;
+    width: 100%;
+}
+
+.techcopy {
+    width: 400px;
+    font-size: 15px;
+}
 
 
 /*ABOUT US*/
@@ -196,7 +219,7 @@ a {
 /*FOOTER*/
 
 .footer {
-    margin-top: 90px;
+    margin-top: 100px;
     padding: 10px;
     border-top: 1px solid white;
 }
