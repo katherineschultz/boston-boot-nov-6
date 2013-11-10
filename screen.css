@@ -12,7 +12,10 @@ html {
 body {
     /*background: black;*/
     background-image: url("img/patternbg.png");
+<<<<<<< HEAD
     background-repeat: repeat-y;
+=======
+>>>>>>> 097d00bd7fb3aa129e783954ea21b083314049e3
     color: white;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
@@ -226,7 +229,10 @@ body {
 .abouthero {
     width: 75%;
     height: 75%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 097d00bd7fb3aa129e783954ea21b083314049e3
 }
 
 .aboutcopy {
@@ -237,6 +243,7 @@ body {
 /*CONTACT*/
 
 #contact {
+    font-family: 'Bitter', serif;
     margin-top: 100px;
 }
 
