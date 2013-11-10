@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="screen.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
 </head>
 <body>
@@ -16,8 +17,8 @@
 
 <nav class="navbar navbar-inverse" role="navigation">
 <div class="navbar-header">
+    <img class="logocropped" src="img/logo_cropped.png" alt="">
     <ul class="nav navbar-nav">
-        <img class="logocropped" src="img/logo_cropped.png" alt="">
         <li><a class="navig" href="#hero">Home</a></li>
         <li><a class="navig" href="#story">Our Story</a></li>
         <li><a class="navig" href="#products">Products</a></li>
@@ -43,7 +44,11 @@
 <!-- OUR STORY -->
 
 <div class="container story" id="story">
-    <p class="headline">OUR STORY</p>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="headline">OUR ST<span class="redo">O</span>RY</p>
+        </div>
+    </div>
 
     <div class="row ourstory">
         <div class="col-md-12">
@@ -53,21 +58,26 @@
 
     <div class="row leather">
         <div class="col-md-6">
-            <p class="storyhead2">WE USE THE BEST LEATHER KNOWN TO MAN</p>
+            <p class="storyhead2">WE USE THE BEST LEATHER KN<span class="redo">O</span>WN TO MAN</p>
             <img class="leatherlogo" src="img/our story/leatherlogo.jpg" alt="">
             <p class="leathercopy">Horween Leather Co. in Chicago is our exclusive supplier of the best leathers on the earth.  All of the leathers are waterproof, making our boots water resistant and durable in every weather condition.</p>
         </div>
         <div class="col-md-6 leathershop">
-            <img class="leatherhero" src="img/our story/leatherhero.jpg" alt="">
+            <img class="leatherhero img-responsive" src="img/our story/leatherhero.jpg" alt="Responsive image">
         </div>
     </div>
 
+<!-- RED DOT -->
+
     <div class="row">
-        <div class="col-md-12">
-            <p class="storyhead2">RED EYELET</p>
-            <img class="reddotimg" src="img/hero/hero.jpg" alt="">
-            <p class="reddotcopy">We’re building Boston Boot Co for everyone that might have a little Boston in their soul.  No detail is minor.  Even a little eyelet is a big deal to us.  With a subtle nod to our hometown, this sophisticated detail will be only seen by the men who wear them.</p>
+        <div class="col-md-6">
+            <img class="reddotimg img-responsive" src="img/hero/hero.jpg" alt="Responsive image">
         </div>
+        <div class="col-md-6">
+            <p class="storyhead2">RED D<span class="redo">O</span>T</p>
+            <p class="reddotcopy">We’re building Boston Boot Co for everyone that might have a little Boston in their soul.  No detail is minor. <br><br>  Even a little eyelet is a big deal to us.  With a subtle nod to our hometown, this sophisticated detail will be only seen by the men who wear them.</p>
+        </div>
+
     </div>
 
 </div>
@@ -76,7 +86,11 @@
 <!-- PRODUCTS -->
 
 <div class="container products" id="products">
-    <p class="headline">PRODUCTS</p>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="headline">PR<span class="redo">O</span>DUCTS</p>
+        </div>
+    </div>
 
     <div class="row product">
         <div class="commonwealth col-md-4">
@@ -99,12 +113,14 @@
         </div>
     </div>
 
+<!-- TECH -->
+
     <div class="row tech">
         <div class="col-md-6">
             <img class="techimg" src="img/tech/greenfeet.jpg" alt="">
         </div>
         <div class="col-md-6">
-            <p class="storyhead2">COMFORT TECHNOLOGY FOR TODAY</p>
+            <p class="storyhead2">COMFORT TECHN<span class="redo">O</span>LOGY FOR TODAY</p>
             <p class="techcopy">We don’t believe in sacrificing style for comfort.  Our team utilized their experience working for globally recognized athletic footwear companies to ensure that our boots have the latest and best features for a comfortable boot.  That includes, our custom engineered footbed! </p>
             <p class="techcopy">The core of every great boot starts here. In order to make a great boot, you must start with a great last. We did just that. Through years of knowledge and experience we crafted this last with the perfect fit in mind including a roomy toe box, contoured instep, and a heel that will not slip.</p>
         </div>
@@ -116,12 +132,16 @@
 <!-- ABOUT US -->
 
 <div class="container about" id="about">
-    <p class="headline">ABOUT US</p>
     <div class="row">
-        <div class="aboutimg col-md-6">
+        <div class="col-md-12">
+            <p class="headline">AB<span class="redo">O</span>UT US</p>
+        <div>
+    </div>
+    <div class="row">
+        <div class="aboutimg col-md-4">
             <img class="abouthero img-responsive" src="img/dudes.jpg" alt="Responsive image">
         </div>
-        <div class="aboutcopy col-md-6">
+        <div class="aboutcopy col-md-8">
             <p>Our team includes guys with years of design, development and production experience with major global footwear companies. We learned a lot working for the big players in the industry but we think there's a better way.We believe our smaller, bootstrapped approach makes us more focused, nimble, and dedicated to our one simple objective: Find the best materials, and utilize the latest manufacturing technologies in performance comfort to make classic, but fresh styled shoes that guys want.</p>
         </div>
     </div>
@@ -130,29 +150,34 @@
 <!-- CONTACT -->
 
 <div class="container contact" id="contact">
-<p class="headline">CONTACT</p>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="headline">C<span class="redo">O</span>NTACT</p>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-4"></div>
-        <form class="col-md-4" action="#">
+        <form class="col-md-4" id="form1" name="form1" class="wufoo topLabel page" enctype="multipart/form-data" method="post" novalidate action="https://katherineschultz.wufoo.com/forms/zboaypw0g1ut26/#public">
             <div class="input-group">
                 <label for="name">Name</label>
-                <input type="text" for="name" class="form-control">
+                <input type="text" name="Field1" class="form-control">
             </div>
             <br>
             <div class="input-group">
                 <label for="email">Email</label>
-                <input type="email" name="email" class="form-control">
+                <input type="email" name="Field2" class="form-control" required>
             </div>
             <br>
             <div class="input-group">
-                <input type="checkbox" name="updates"> Send me updates on Boston Boot Co.
+                <input type="checkbox" name="Field3" value="yes"> Send me updates on Boston Boot Co.
             </div>
             <br>
             <div class="input-group">
-                <input type="checkbox" name="newsletter"> Subscribe me to Boston Boot Co.'s newsletter
+                <input type="checkbox" name="Field4" value="yes"> Subscribe me to Boston Boot Co.'s newsletter
             </div>
             <br>
-            <button type="button" class="btn btn-danger">Submit</button>
+            <button type="submit" class="btn btn-danger">Submit</button>
+            <input type="hidden" id="idstamp" name="idstamp" value="EYbH3uChyc1twtblvt1QzuuK2nWG0UoMjJhwT6Lk92o=" />
         </form>
         <div class="col-md-4"></div>
     </div>
