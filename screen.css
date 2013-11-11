@@ -31,17 +31,21 @@ body {
     line-height: 50px;
     font-weight: 800;
 }
+
  .redo {
     color: red;
+ }
+
+ .bookmark {
+    padding: 30px 0px;
  }
 
 /*NAVBAR*/
 
 .logocropped {
-    width: 7%;
-    height: 7%;
-    margin-right: 10px;
-    margin-left: 5px;
+    width: 3%;
+    height: 3%;
+    margin-left: 10px;
     float: left;
 }
 
@@ -53,7 +57,7 @@ body {
 
 .navbar {
     background-color: black;
-    margin-bottom: 2px;
+    padding: 3px 0px;
 }
 
 
@@ -108,7 +112,7 @@ body {
 /*OUR STORY*/
 
 #story {
-    margin-top: 200px;
+    margin-top: 170px;
 }
 
 /*OUR STORY DESCRIPTION*/
@@ -175,7 +179,7 @@ body {
 /*PRODUCTS*/
 
 #products {
-    margin-top: 200px;
+    margin-top: 170px;
 }
 
 .product {
@@ -220,7 +224,7 @@ body {
 /*ABOUT US*/
 
 #about {
-    margin-top: 200px;
+    margin-top: 170px;
 }
 
 .abouthero {
@@ -237,7 +241,7 @@ body {
 /*CONTACT*/
 
 #contact {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 form {

@@ -15,10 +15,10 @@
 
 <!-- NAVBAR -->
 
-<nav class="navbar navbar-inverse" role="navigation">
-<div class="navbar-header">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div>
     <img class="logocropped" src="img/logo_cropped.png" alt="">
-    <ul class="nav navbar-nav">
+    <ul class="nav navbar-nav navbar-right">
         <li><a class="navig" href="#hero">Home</a></li>
         <li><a class="navig" href="#story">Our Story</a></li>
         <li><a class="navig" href="#products">Products</a></li>
@@ -43,7 +43,9 @@
 
 <!-- OUR STORY -->
 
-<div class="container story" id="story">
+<div class="bookmark" id="story"></div>
+
+<div class="container story">
     <div class="row">
         <div class="col-md-12">
             <p class="headline">OUR ST<span class="redo">O</span>RY</p>
@@ -77,7 +79,6 @@
             <p class="storyhead2">RED D<span class="redo">O</span>T</p>
             <p class="reddotcopy">We’re building Boston Boot Co for everyone that might have a little Boston in their soul.  No detail is minor. <br><br>  Even a little eyelet is a big deal to us.  With a subtle nod to our hometown, this sophisticated detail will be only seen by the men who wear them.</p>
         </div>
-
     </div>
 
 </div>
@@ -85,7 +86,9 @@
 
 <!-- PRODUCTS -->
 
-<div class="container products" id="products">
+<div class="bookmark" id="products"></div>
+
+<div class="container products">
     <div class="row">
         <div class="col-md-12">
             <p class="headline">PR<span class="redo">O</span>DUCTS</p>
@@ -131,7 +134,9 @@
 
 <!-- ABOUT US -->
 
-<div class="container about" id="about">
+<div class="bookmark" id="about"></div>
+
+<div class="container about">
     <div class="row">
         <div class="col-md-12">
             <p class="headline">AB<span class="redo">O</span>UT US</p>
@@ -149,7 +154,9 @@
 
 <!-- CONTACT -->
 
-<div class="container contact" id="contact">
+<div class="bookmark" id="contact"></div>
+
+<div class="container contact">
     <div class="row">
         <div class="col-md-12">
             <p class="headline">C<span class="redo">O</span>NTACT</p>
@@ -160,20 +167,20 @@
         <form class="col-md-4" id="form1" name="form1" class="wufoo topLabel page" enctype="multipart/form-data" method="post" novalidate action="https://katherineschultz.wufoo.com/forms/zboaypw0g1ut26/#public">
             <div class="input-group">
                 <label for="name">Name</label>
-                <input type="text" name="Field1" class="form-control">
+                <input type="text" name="Field1" class="form-control" id="name">
             </div>
             <br>
             <div class="input-group">
                 <label for="email">Email</label>
-                <input type="email" name="Field2" class="form-control" required>
+                <input type="email" name="Field2" class="form-control" id="email" required>
             </div>
             <br>
             <div class="input-group">
-                <input type="checkbox" name="Field3" value="yes"> Send me updates on Boston Boot Co.
+                <label><input type="checkbox" name="Field3" value="yes"> Send me updates on Boston Boot Co.</label>
             </div>
             <br>
             <div class="input-group">
-                <input type="checkbox" name="Field4" value="yes"> Subscribe me to Boston Boot Co.'s newsletter
+                <label><input type="checkbox" name="Field4" value="yes"> Subscribe me to Boston Boot Co.'s newsletter</label>
             </div>
             <br>
             <button type="submit" class="btn btn-danger">Submit</button>
